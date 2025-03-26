@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "c:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "c:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "c:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "c:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Mark Joseph Potot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\obj\\",
+        "outputPath": "c:\\Users\\Mark Joseph Potot\\OneDrive\\文件\\prelim loan system\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
