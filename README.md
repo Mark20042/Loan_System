@@ -1,13 +1,2 @@
-Loan System
+A LOAN SYSTEM THAT WILL ASK FOR USER TO INPUT IT'S BORROWER NAME AND BORROWED AMOUNT ALSO THE INTEEST RATE AND WILL STORE IN MYSQL DATABASE 
 
-Loan Record :
-
-loan amount
-
-interest rate
-
-interested amount
-
-status if the loan is paid or not
-
-the program will asks input from users
