@@ -7,10 +7,10 @@ class Program
     static void Main()
     {
         string choice;
-
         do
         {
             choice = Choose();
+            
             if (choice == "1")
             {
                 AddNewRecord();
